@@ -1,6 +1,6 @@
 import * as FSE from 'fs-extra'
 import * as Path from 'path'
-import { GitProcess } from '@shiftkey/dugite'
+import { GitProcess } from 'dugite'
 
 import { setupEmptyRepository } from '../../helpers/repositories'
 import { getStatusOrThrow } from '../../helpers/status'

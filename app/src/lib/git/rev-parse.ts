@@ -1,7 +1,7 @@
 import * as Path from 'path'
 
 import { git } from './core'
-import { RepositoryDoesNotExistErrorCode } from '@shiftkey/dugite'
+import { RepositoryDoesNotExistErrorCode } from 'dugite'
 import { directoryExists } from '../directory-exists'
 
 /**

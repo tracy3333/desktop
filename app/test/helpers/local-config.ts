@@ -1,5 +1,5 @@
 import { Repository } from '../../src/models/repository'
-import { GitProcess } from '@shiftkey/dugite'
+import { GitProcess } from 'dugite'
 
 export async function setupLocalConfig(
   repository: Repository,

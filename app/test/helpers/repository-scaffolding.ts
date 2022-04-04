@@ -1,4 +1,4 @@
-import { GitProcess } from '@shiftkey/dugite'
+import { GitProcess } from 'dugite'
 import * as FSE from 'fs-extra'
 import * as Path from 'path'
 

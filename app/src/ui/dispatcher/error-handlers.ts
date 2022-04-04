@@ -1,7 +1,7 @@
 import {
   GitError as DugiteError,
   RepositoryDoesNotExistErrorCode,
-} from '@shiftkey/dugite'
+} from 'dugite'
 
 import { Dispatcher } from '.'
 import { ExternalEditorError } from '../../lib/editors/shared'

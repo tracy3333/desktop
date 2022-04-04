@@ -13,7 +13,7 @@ import {
   setupFixtureRepository,
   setupEmptyRepository,
 } from '../../helpers/repositories'
-import { GitProcess } from '@shiftkey/dugite'
+import { GitProcess } from 'dugite'
 import { mkdirSync } from '../../helpers/temp'
 
 describe('git/rev-parse', () => {

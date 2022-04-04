@@ -1,6 +1,6 @@
 import * as Path from 'path'
 import * as FSE from 'fs-extra'
-import { GitProcess } from '@shiftkey/dugite'
+import { GitProcess } from 'dugite'
 
 import {
   AppStore,

@@ -11,7 +11,7 @@ import {
   setupEmptyDirectory,
 } from '../../helpers/repositories'
 import { findDefaultRemote } from '../../../src/lib/stores/helpers/find-default-remote'
-import { GitProcess } from '@shiftkey/dugite'
+import { GitProcess } from 'dugite'
 
 describe('git/remote', () => {
   describe('getRemotes', () => {

@@ -13,7 +13,7 @@ import {
   IUnbornRepository,
 } from '../../../src/models/tip'
 import { GitStore } from '../../../src/lib/stores'
-import { GitProcess } from '@shiftkey/dugite'
+import { GitProcess } from 'dugite'
 import {
   getBranchesPointedAt,
   createBranch,

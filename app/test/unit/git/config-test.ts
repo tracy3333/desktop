@@ -1,4 +1,4 @@
-import { GitProcess } from '@shiftkey/dugite'
+import { GitProcess } from 'dugite'
 import * as Path from 'path'
 
 import { Repository } from '../../../src/models/repository'
